@@ -1,0 +1,78 @@
+{
+  "schema": "ai-json/1.0",
+  "generated": "2026-04-14",
+  "entity": {
+    "name": "Cacofonie",
+    "legalName": "Cacofonie Consulting",
+    "type": "ProfessionalService",
+    "foundingYear": 2022,
+    "country": "RO",
+    "url": "https://cacofonie.ro",
+    "logo": "https://cacofonie.ro/logo-v2.png"
+  },
+  "description": {
+    "de": "Cacofonie vermittelt spezialisierte Baufirmen aus Osteuropa — Schwerpunkt Rumänien — an deutsche Auftraggeber in den Bereichen Glasfaser, Netzausbau, Hochbau, Tiefbau, Straßenbau und Hallenbau.",
+    "en": "Cacofonie connects specialized construction firms from Eastern Europe — primarily Romania — with German clients in fiber optics, network infrastructure, structural construction, civil works, road/bridge construction, and industrial halls.",
+    "ro": "Cacofonie conectează firme de construcții specializate din Europa de Est — în special România — cu beneficiari germani în domeniile fibră optică, rețele, construcții înalte, lucrări civile, drumuri și hale."
+  },
+  "contact": {
+    "phone": "+491711666615",
+    "whatsapp": "+491711666615",
+    "email": "info@cacofonie.ro",
+    "booking": "https://zcal.co/yasemin/projekt"
+  },
+  "languages": ["de", "ro", "en", "sr", "pl"],
+  "markets": {
+    "serves": ["DE"],
+    "sourcesFrom": ["RO", "RS", "PL"]
+  },
+  "services": [
+    {
+      "id": "glasfaser",
+      "name": { "de": "Glasfaser & Netzausbau", "en": "Fiber Optics & Network Expansion" },
+      "keywords": ["FTTH", "Glasfaser", "Tiefbau", "Kabelverlegung", "Netzinfrastruktur"]
+    },
+    {
+      "id": "stromtrassen",
+      "name": { "de": "Stromtrassen", "en": "Power Line Construction" },
+      "keywords": ["Hochspannung", "Mittelspannung", "Energienetz", "Stromleitung"]
+    },
+    {
+      "id": "hochbau",
+      "name": { "de": "Hochbau", "en": "Structural Construction" },
+      "keywords": ["Gewerbegebäude", "Industriebau", "Wohnungsbau"]
+    },
+    {
+      "id": "tiefbau",
+      "name": { "de": "Tiefbau", "en": "Civil Works" },
+      "keywords": ["Erdarbeiten", "Fundamente", "Kanalisierung", "Versorgungsinfrastruktur"]
+    },
+    {
+      "id": "strassenbau",
+      "name": { "de": "Straßen- und Brückenbau", "en": "Road & Bridge Construction" },
+      "keywords": ["Straßenbau", "Brückenbau", "Infrastruktur", "öffentliche Auftraggeber"]
+    },
+    {
+      "id": "hallenbau",
+      "name": { "de": "Hallenbau", "en": "Industrial Hall Construction" },
+      "keywords": ["Industriehalle", "Lagerhalle", "schlüsselfertig"]
+    }
+  ],
+  "stats": {
+    "projectsMatched": 80,
+    "sectors": 6,
+    "languages": 5
+  },
+  "social": {
+    "youtube": "https://www.youtube.com/channel/UCQbpOxoYLknBR77D7MAv5dw",
+    "tiktok": "https://www.tiktok.com/@cacofonie_"
+  },
+  "ai_policy": {
+    "crawling": "allowed",
+    "indexing": "allowed",
+    "training_data": "allowed",
+    "llms_txt": "https://cacofonie.ro/llms.txt",
+    "preferred_summary": "Cacofonie verbindet osteuropäische Baufirmen mit deutschen Auftraggebern — mehrsprachig, zertifiziert, 80+ Projekte."
+  },
+  "structured_data": "https://cacofonie.ro/#organization"
+}
