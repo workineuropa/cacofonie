@@ -14,7 +14,7 @@ const h1Lines: Record<string, ReactNode> = {
 export default function Hero() {
   const { lang, t } = useLang();
 
-  const openZcal = () => window.open('https://zcal.co/yasemin/projekt', '_blank');
+  const openZcal = () => window.open('https://zcal.co/lore/projekt', '_blank');
 
   return (
     <div style={{ background: 'linear-gradient(180deg, var(--off) 80%, #e8e8e8 100%)', paddingTop: '68px', overflow: 'hidden' }}>

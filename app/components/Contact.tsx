@@ -25,7 +25,7 @@ export default function Contact() {
   };
 
   const openZcal = () => {
-    window.open('https://zcal.co/yasemin/projekt', '_blank');
+    window.open('https://zcal.co/lore/projekt', '_blank');
   };
 
   return (
@@ -140,8 +140,8 @@ export default function Contact() {
               <div className="info-item">
                 <div className="info-lbl">{t('Termin', 'Programare', 'Appointment')}</div>
                 <div className="info-val">
-                  <a href="https://zcal.co/yasemin/projekt" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
-                    zcal.co/yasemin/projekt
+                  <a href="https://zcal.co/lore/projekt" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
+                    zcal.co/lore/projekt
                   </a>
                 </div>
               </div>

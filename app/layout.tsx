@@ -138,7 +138,7 @@ const structuredData = {
       inLanguage: ['de', 'ro', 'en', 'sr', 'pl'],
       potentialAction: {
         '@type': 'CommunicateAction',
-        target: 'https://zcal.co/yasemin/projekt',
+        target: 'https://zcal.co/lore/projekt',
         name: 'Termin vereinbaren',
       },
     },

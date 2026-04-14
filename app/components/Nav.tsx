@@ -17,7 +17,7 @@ export default function Nav() {
   }, []);
 
   const openZcal = () => {
-    window.open('https://zcal.co/yasemin/projekt', '_blank');
+    window.open('https://zcal.co/lore/projekt', '_blank');
     setMenuOpen(false);
   };
 

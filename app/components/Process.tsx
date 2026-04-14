@@ -13,7 +13,7 @@ function ProcessIllo({ src, alt }: { src: string; alt: string }) {
 export default function Process() {
   const { t } = useLang();
 
-  const openZcal = () => window.open('https://zcal.co/yasemin/projekt', '_blank');
+  const openZcal = () => window.open('https://zcal.co/lore/projekt', '_blank');
 
   const steps = [
     {
