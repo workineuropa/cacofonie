@@ -1,21 +1,16 @@
 User-agent: *
 Allow: /
+Allow: /llms.txt
+Allow: /ai.json
+Allow: /ai.txt
+Disallow: /admin/
+Disallow: /api/
 
-# ── Standard Search Engines ──────────────────────────────────────────────────
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Slurp
-Allow: /
-
-User-agent: DuckDuckBot
-Allow: /
-
-# ── AI & LLM Crawlers — explicitly welcome ────────────────────────────────────
+# ── KI-Suchbots (Zitieren & Antworten erlaubt) ───────────────────────────────
 User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
@@ -27,29 +22,23 @@ Allow: /
 User-agent: anthropic-ai
 Allow: /
 
-User-agent: Google-Extended
-Allow: /
-
 User-agent: PerplexityBot
 Allow: /
 
-User-agent: Applebot
+User-agent: Google-Extended
 Allow: /
 
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: DeepSeekBot
+Allow: /
+
+# ── Trainings-Crawler (verboten) ──────────────────────────────────────────────
 User-agent: CCBot
-Allow: /
+Disallow: /
 
-User-agent: cohere-ai
-Allow: /
-
-User-agent: meta-externalagent
-Allow: /
-
-User-agent: YouBot
-Allow: /
-
-# ── AI-readable files ─────────────────────────────────────────────────────────
-# Full LLM context:   https://cacofonie.ro/llms.txt
-# Machine-readable:   https://cacofonie.ro/ai.json
+User-agent: GPTBot-Training
+Disallow: /
 
 Sitemap: https://cacofonie.ro/sitemap.xml

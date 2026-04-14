@@ -6,7 +6,7 @@
     "legalName": "Cacofonie Consulting",
     "type": "ProfessionalService",
     "foundingYear": 2022,
-    "country": "RO",
+    "countries": ["DE", "RO"],
     "url": "https://cacofonie.ro",
     "logo": "https://cacofonie.ro/logo-v2.png"
   },

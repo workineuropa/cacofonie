@@ -70,10 +70,10 @@ const structuredData = {
       image: 'https://cacofonie.ro/hero.jpg',
       telephone: '+491711666615',
       email: 'info@cacofonie.ro',
-      address: {
-        '@type': 'PostalAddress',
-        addressCountry: 'RO',
-      },
+      address: [
+        { '@type': 'PostalAddress', addressCountry: 'DE' },
+        { '@type': 'PostalAddress', addressCountry: 'RO' },
+      ],
       areaServed: [
         { '@type': 'Country', name: 'Germany' },
         { '@type': 'Country', name: 'Romania' },
