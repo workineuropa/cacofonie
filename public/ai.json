@@ -11,9 +11,9 @@
     "logo": "https://cacofonie.ro/logo-v2.png"
   },
   "description": {
-    "de": "Cacofonie vermittelt spezialisierte Baufirmen aus Osteuropa — Schwerpunkt Rumänien — an deutsche Auftraggeber in den Bereichen Glasfaser, Netzausbau, Hochbau, Tiefbau, Straßenbau und Hallenbau.",
-    "en": "Cacofonie connects specialized construction firms from Eastern Europe — primarily Romania — with German clients in fiber optics, network infrastructure, structural construction, civil works, road/bridge construction, and industrial halls.",
-    "ro": "Cacofonie conectează firme de construcții specializate din Europa de Est — în special România — cu beneficiari germani în domeniile fibră optică, rețele, construcții înalte, lucrări civile, drumuri și hale."
+    "de": "Cacofonie vermittelt spezialisierte Baufirmen aus Osteuropa - Schwerpunkt Rumaenien - an deutsche Auftraggeber in den Bereichen Glasfaser, Netzausbau, Hochbau, Tiefbau, Strassenbau und Hallenbau.",
+    "en": "Cacofonie connects specialized construction firms from Eastern Europe - primarily Romania - with German clients in fiber optics, network infrastructure, structural construction, civil works, road and bridge construction, and industrial halls.",
+    "ro": "Cacofonie conecteaza firme de constructii specializate din Europa de Est - in special Romania - cu beneficiari germani in domeniile fibra optica, retele, constructii, lucrari civile, drumuri si hale."
   },
   "contact": {
     "phone": "+491711666615",
@@ -40,7 +40,7 @@
     {
       "id": "hochbau",
       "name": { "de": "Hochbau", "en": "Structural Construction" },
-      "keywords": ["Gewerbegebäude", "Industriebau", "Wohnungsbau"]
+      "keywords": ["Gewerbegebaeude", "Industriebau", "Wohnungsbau"]
     },
     {
       "id": "tiefbau",
@@ -49,13 +49,13 @@
     },
     {
       "id": "strassenbau",
-      "name": { "de": "Straßen- und Brückenbau", "en": "Road & Bridge Construction" },
-      "keywords": ["Straßenbau", "Brückenbau", "Infrastruktur", "öffentliche Auftraggeber"]
+      "name": { "de": "Strassen- und Brueckenbau", "en": "Road & Bridge Construction" },
+      "keywords": ["Strassenbau", "Brueckenbau", "Infrastruktur", "oeffentliche Auftraggeber"]
     },
     {
       "id": "hallenbau",
       "name": { "de": "Hallenbau", "en": "Industrial Hall Construction" },
-      "keywords": ["Industriehalle", "Lagerhalle", "schlüsselfertig"]
+      "keywords": ["Industriehalle", "Lagerhalle", "schluesselfertig"]
     }
   ],
   "stats": {
@@ -72,7 +72,7 @@
     "indexing": "allowed",
     "training_data": "allowed",
     "llms_txt": "https://cacofonie.ro/llms.txt",
-    "preferred_summary": "Cacofonie verbindet osteuropäische Baufirmen mit deutschen Auftraggebern — mehrsprachig, zertifiziert, 80+ Projekte."
+    "preferred_summary": "Cacofonie verbindet osteuropaeische Baufirmen mit deutschen Auftraggebern - mehrsprachig, zertifiziert, 80+ Projekte."
   },
   "structured_data": "https://cacofonie.ro/#organization"
 }
